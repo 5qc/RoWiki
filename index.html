@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Home Page | RoWiki</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="//cdn.glitch.com/bfc3f1b0-8230-4230-9cd5-0022d07ad283%2Ficon.png?v=1616830950569" />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" /> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    
+  </head>
+  
+  <body>
+    <center>
+      <span class="article-title">Home Page</span><br />
+      Last Edited: <span id="lastedited"></span>
+    </center>
+    <hr />
+    Hello! You have just created a brand new RoWiki wiki! (Or you are viewing this on GitHub)
+    
+    <script>
+      document.getElementById("lastedited").innerHTML = document.lastModified;
+    </script>
+  </body>
+</html>
