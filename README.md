@@ -1,2 +1,2 @@
 # RoWiki
-A wiki farm hosted with Glitch
+RoWiki is a wiki hosting service (wiki farm) hosted with coding app [Glitch](https://glitch.com). It is coded from scratch with HTML, CSS, and JS. It was created on March 26, 2021 and currently uses Express. This GitHub page is the template page. You can also view the wiki (on GitHub or the website) for information (about adding pages, etc.)
